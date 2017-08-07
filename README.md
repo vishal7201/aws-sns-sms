@@ -9,7 +9,7 @@ A small library that adds commas to numbers
   npm install aws-sns-sms
 
 ## Usage
-
+```javascript
   let sendMsg = require('aws-sns-sms');
   let awsConfig = {
   accessKeyId: '',
@@ -28,4 +28,4 @@ A small library that adds commas to numbers
   .catch(err => {
     consolr.log(err);
   });
-  
+```
