@@ -16,7 +16,7 @@ A small library that adds commas to numbers
   secretAccessKey: '',
   region: ''
   };
-  
+
   let msg = {
     "message": "your OTP is 845214",
     "sender": "VISHAL",
