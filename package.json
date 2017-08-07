@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vishal7201/aws_sns_msg.git"
+    "url": "git+https://github.com/vishal7201/aws-sns-sms.git"
   },
   "keywords": [
     "AWS",
@@ -20,9 +20,9 @@
   "author": "Vishal Bisht <vishalbisht7201@gmail.com> (https://www.codepeal.com)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/vishal7201/aws_sns_msg/issues"
+    "url": "https://github.com/vishal7201/aws-sns-sms/issues"
   },
-  "homepage": "https://github.com/vishal7201/aws_sns_msg#readme",
+  "homepage": "https://github.com/vishal7201/aws-sns-sms#readme",
   "dependencies": {
     "aws-sdk": "^2.94.0"
   }
