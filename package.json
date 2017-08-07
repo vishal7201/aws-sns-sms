@@ -1,6 +1,6 @@
 {
   "name": "aws-sns-sms",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A AWS SNS wrapper to send message to a mobile number (useful to send OTP)",
   "main": "index.js",
   "scripts": {
