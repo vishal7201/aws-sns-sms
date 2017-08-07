@@ -1,7 +1,6 @@
 const AWS = require('aws-sdk');
 
 const sendMsg = (config,message) => {
-  console.log(message);
   return new Promise((resolve, reject) => {
     AWS.config.update(config);
     const sns = new AWS.SNS();
@@ -20,7 +19,6 @@ const sendMsg = (config,message) => {
       MessageStructure: 'string',
       PhoneNumber: message.phoneNumber
     }
-    console.log(params);
     sns.publish(params, (err, data) => {
       if (err) {
         reject(err);
