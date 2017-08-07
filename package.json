@@ -1,0 +1,29 @@
+{
+  "name": "aws-sns-sms",
+  "version": "1.0.0",
+  "description": "A AWS SNS wrapper to send message to a mobile number (useful to send OTP)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishal7201/aws_sns_msg.git"
+  },
+  "keywords": [
+    "AWS",
+    "SNS",
+    "SMS",
+    "OTP",
+    "MESSAGE"
+  ],
+  "author": "Vishal Bisht <vishalbisht7201@gmail.com> (https://www.codepeal.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vishal7201/aws_sns_msg/issues"
+  },
+  "homepage": "https://github.com/vishal7201/aws_sns_msg#readme",
+  "dependencies": {
+    "aws-sdk": "^2.94.0"
+  }
+}
