@@ -1,5 +1,5 @@
 # aws-sns-sms
-An AWS SNS Module to send msessage to a phone number.(Can be used to send OTP)
+An AWS SNS Module to send message to a phone number.(Can be used to send OTP)
 
 
 ## Installation
@@ -24,6 +24,6 @@ An AWS SNS Module to send msessage to a phone number.(Can be used to send OTP)
     console.log("Message sent");
   })
   .catch(err => {
-    consolr.log(err);
+    console.log(err);
   });
 ```
